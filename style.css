@@ -1,0 +1,34 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+}
+
+.calculator-container {
+    width: 206px;
+    height:330px;
+    border: solid 5px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.calculation-current {
+    border: solid 3px black;
+    flex: auto;
+}
+
+.calculator-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
